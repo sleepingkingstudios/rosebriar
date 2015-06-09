@@ -1,4 +1,19 @@
 ---
+chapters:
+- the_basics
 ---
 
-Welcome to the {{ page.system_name }} game system!
+{% for chapter_name in page.chapters %}
+
+{% capture chapter %}
+{% include chapters/{{ chapter_name }}.md %}
+{% endcapture %}
+
+{{ chapter | markdownify }}
+
+[Back To Top](#)
+
+<br>
+<hr>
+
+{% endfor %}

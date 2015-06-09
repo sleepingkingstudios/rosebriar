@@ -1,0 +1,17 @@
+---
+exclude:
+- .gitignore
+- .ruby-gemset
+- .ruby-version
+- Gemfile
+- Gemfile.lock
+defaults:
+- scope:
+    path: ''
+    type: 'pages'
+  values:
+    encoding: 'urf-8'
+    layout: 'page'
+    title: 'Rosebriar Game System'
+    # Custom variables.
+    system_name: 'Rosebriar'

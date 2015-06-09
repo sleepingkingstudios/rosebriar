@@ -54,3 +54,7 @@ hr:after {
   position: relative;
   top: 2px;
 }
+
+.extended-edition { display: none; }
+
+a.show-extended-content, a.hide-extended-content { font-weight: bold; }

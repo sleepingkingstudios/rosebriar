@@ -1,6 +1,7 @@
 ---
 chapters:
 - the_basics
+- attributes
 ---
 
 {% for chapter_name in page.chapters %}

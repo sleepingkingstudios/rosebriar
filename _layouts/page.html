@@ -24,6 +24,13 @@
           <hr style="margin-top:0px;">
 
           <h3>Chapter Navigation</h3>
+
+          <nav>
+{% capture navigation_items %}
+{% include navigation.md %}
+{% endcapture %}
+{{ navigation_items | markdownify }}
+          </nav>
         </div>
 
         <div class="hidden-xs">

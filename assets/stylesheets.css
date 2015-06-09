@@ -23,6 +23,15 @@ nav ul li {
   font-size: 18px;
 }
 
+nav ul li > ul li {
+  padding-left: 2px;
+
+  list-style-position: inside;
+  list-style-type:     square;
+
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   nav ul li {
     text-align: center;

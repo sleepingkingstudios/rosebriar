@@ -2,6 +2,7 @@
 chapters:
 - the_basics
 - attributes
+- combat
 ---
 
 {% for chapter_name in page.chapters %}

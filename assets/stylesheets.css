@@ -64,6 +64,12 @@ hr:after {
   top: 2px;
 }
 
+.tbd {
+  font-weight: bold;
+
+  color: #f00;
+}
+
 .extended-edition { display: none; }
 
 a.show-extended-content, a.hide-extended-content { font-weight: bold; }

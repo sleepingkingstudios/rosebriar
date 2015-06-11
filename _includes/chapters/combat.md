@@ -26,6 +26,32 @@ Characters can be fragile things. Between bandits' swords and arrows, ancient to
 
 ### Damage Types
 
+Generally, in the {{ page.system_name }} system, a point of damage is a point of damage, whether it results from a hail of arrows or a scorching fireball. This abstracts away a great deal of complexity. Sometimes, however, the source of injury matters, particularly for creatures that may be particularly resistant or particularly vulnerable to damage from a particular source. A plant monster, for example, might be vulnerable to fire attacks, while a ghost might ignore any sources of physical harm.
+
+{{ page.system_name }} handles these cases using damage types. It is important to note that most of the time, damage types are invisible. One point of fire energy damage and one point of wood bludgeoning damage have exactly the same effect on a character or creature unless there is an explicit effect that alters or triggers on one of those types.
+
+#### Physical Damage
+
+**Physical damage** represents being struck, pierced, cut, or otherwise violently injured by a physical object. Some creatures may be resistant or even immune to all physical damage, such as ghosts or other incorporeal entities. The most common source of physical damage is weapon attacks, whether that is a character's sword or arrow or a creature's claw slash or tail slap. Some spells will also inflict physical damage, such as a slashing blade of air, a whip of vines, or a punishing hail of stones.
+
+Physical damage is further subdivided into bludgeoning, piercing, and slashing damage (see below). Only a few effects will inflict raw physical damage as a difficult-to-resist catch-all type, such as being crushed by a trap or a rock fall. In addition to the type or subtype, physical damage can be characterized by the material used to inflict the damage, such as wood, stone, or metal.
+
+##### Bludgeoning, Piercing, and Slashing Damage
+
+Generally, most sources of physical damage will inflict one of three physical damage subtypes:
+
+*Bludgeoning damage* is caused by blunt force, ranging from a blow from a club or staff to the fist of an angry giant.
+
+*Piercing damage* is caused by a deep stab injury, such as a thief's dirk, an arrow or crossbow bolt, or the head of a pike.
+
+*Slashing damage* is caused by a cutting injury, such as a monster's claws, a sword slash, or a spinning blade trap.
+
+##### Material Damage
+
+Some creatures may have additional vulnerability to specific materials, particularly those related to the fundamental elements of wood, stone, water, air, or metal. For example, a wooden quarterstaff would inflict wood bludgeoning damage, an iron-tipped arrow would inflict metal piercing damage, and a spell that conjured an invisible blade of wind would inflict air slashing damage. In addition, some effects may treat "corrosive" as a material for damage purposes, such as a giant wurm's gullet inflicting corrosive physical damage each round.
+
+#### Energy Damage
+
 <span class="tbd">TBD</span>
 
 ### Vitality and Wounds

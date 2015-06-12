@@ -28,7 +28,7 @@ Characters can be fragile things. Between bandits' swords and arrows, ancient to
 
 Generally, in the {{ page.system_name }} system, a point of damage is a point of damage, whether it results from a hail of arrows or a scorching fireball. This abstracts away a great deal of complexity. Sometimes, however, the source of injury matters, particularly for creatures that may be particularly resistant or particularly vulnerable to damage from a particular source. A plant monster, for example, might be vulnerable to fire attacks, while a ghost might ignore any sources of physical harm.
 
-{{ page.system_name }} handles these cases using damage types. It is important to note that most of the time, damage types are invisible. One point of fire energy damage and one point of wood bludgeoning damage have exactly the same effect on a character or creature unless there is an explicit effect that alters or triggers on one of those types.
+{{ page.system_name }} handles these cases using damage types. It is important to note that most of the time, damage types are invisible. One point of fire energy damage and one point of wood bludgeoning damage have exactly the same effect on a character or creature unless there is an explicit effect that alters or triggers on one of those types. There are no complicated type charts to memorize - weapons, spells and abilities will always tell you what kind of damage they deal, and creatures will always explicitly list any weaknesses or resistances.
 
 #### Physical Damage
 
@@ -52,7 +52,27 @@ Some creatures may have additional vulnerability to specific materials, particul
 
 #### Energy Damage
 
-<span class="tbd">TBD</span>
+Not all dangers are tangible - the burn of a fire, the chill of a winter blizzard, or a bolt of lightning can kill as easily as any sword. Energy damage is non-physical and will bypass any protections or resistances to physical damage. It is typically inflicted by magical spells or abilities or by environmental hazards.
+
+##### Elemental Damage
+
+Most sources of energy damage are of the elemental damage subtype.
+
+*Fire damage* is caused by flame or extreme heat, and commonly inflicted by fire magic.
+
+*Cold damage* is caused by bitter cold, and commonly inflicted by water magic.
+
+*Lightning damage* is caused by electricity, and commonly inflicted by air magic.
+
+A few effects can cause raw elemental damage, such as certain powerful spells.
+
+##### Spiritual Damage
+
+The energies of the realms above and below are inimical to mere mortals. They are especially effective against creatures aligned with the opposing power, and against the undead, whose unnatural forms cannot abide either holy or unholy energies.
+
+*Light damage* is caused by exposure to powerful holy energies. It can be inflicted by powerful divine magics or creatures of an angelic nature. It is particularly effective when battling demons.
+
+*Shadow damage* is caused by exposure to diabolical energies. It can be inflicted by powerful divine magics or creatures of a demonic nature. It is particularly effective when battling angels.
 
 ### Vitality and Wounds
 
